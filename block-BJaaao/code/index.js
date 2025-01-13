@@ -6,9 +6,9 @@
  replace that to the value of the variable.
 
 */
-
 let num1 = 21;
 let num2 = 32;
+
 
 /*
 - Create a variable named `language` and store the value of `JavaScript` in it
@@ -16,6 +16,11 @@ let num2 = 32;
 - Alert `The value of num1 is [num1] and the value of num2 is [num2]`
 - Alert `The sum of [num1] and [num2] is [num1 + num1]`
 */
+
+let language = `JavaScript`
+alert(`i am learning ${language}`);
+alert(`The value of ${num1} and the value of num2 is ${num2}`);
+alert(`The sum of ${num1} and ${num2} is ${num1 + num2}`);
 
 /*
 2. Do the following using `alert`, `prompt` and `confirm` and `console`
@@ -33,6 +38,13 @@ let num2 = 32;
     Profession: [userProfession]` (it should be in three different lines)
 */
 
+let userName= prompt("Name of the user:?")
+let userProfession = prompt("Profession of the user :?")
+let isAdult = confirm("User is Adult or not:?")
+alert(`I am ${userName} a ${userProfession}`);
+console.log(`I am ${userName} a ${userProfession}`);
+alert(`Username: ${userName} \n Adult: ${isAdult} \n Profession: ${userProfession} `);
+console.log(`Username: ${userName}\nAdult: ${isAdult}\nProfession: ${userProfession}`);
 /*
 . Addition using prompt
 
@@ -43,3 +55,11 @@ let num2 = 32;
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
+let numA = Number(prompt("enter the number :?"));
+let numB = Number(prompt("Enter the number :?"));
+alert(`The sum of ${numA} and ${numB} is ${numA + numB}`);
+alert(`The Difference of ${numA} and ${numB} is ${numA - numB}`);
+alert(`The Product of ${numA} and ${numB} is ${numA * numB}`);
+console.log(`The difference between ${numA} and ${numB} is ${numA - numB} `);
+console.log(`The Product between ${numA} and ${numB} is ${numA * numB} `);
+
